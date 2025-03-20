@@ -37,7 +37,7 @@ export class AppComponent {
   
           setTimeout(() => {
             flower.remove();
-          }, 5000);
+          }, 15000);
         }, i * intervalo);
       }
     }

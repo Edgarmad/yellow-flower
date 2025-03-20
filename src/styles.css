@@ -32,10 +32,17 @@
   }
   
   .popup-content {
-    background: white;
+    background: #fdc5a7;
+    border: 1px;
+    font-size: 1.5rem;
+
+    border-color: #bd4504;
+    border-style: solid;
+    color: #bd4504;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
+    font-family: "Pixelify Sans", sans-serif;
   }
   
   .popup-content button {
@@ -50,4 +57,9 @@
   .popup-content button:hover {
     background-color: #fdd835;
   }
-  
+  body {
+    background-color: #fbeec1; /* Color crema claro */
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Evita scroll si hay animaciones */
+  }

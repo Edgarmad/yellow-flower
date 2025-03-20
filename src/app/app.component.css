@@ -11,12 +11,15 @@
   button {
     font-size: 1.5rem;
     padding: 10px 20px;
-    background-color: #ffeb3b;
-    border: none;
-    border-radius: 12px;
+    background-color: #fdc5a7;
+    border: 1px;
+    border-color: #bd4504;
+    border-style: solid;
+    color: #bd4504;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     z-index: 10; /* Para que el botón siempre esté arriba */
+    font-family: "Pixelify Sans", sans-serif;
   }
   
   button:hover {
